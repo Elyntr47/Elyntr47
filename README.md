@@ -8,13 +8,8 @@
 
 <a href="https://github.com/Elyntr47"><img src="https://komarev.com/ghpvc/?username=Elyntr47&label=Profile%20Views&color=7aa2f7&style=flat" alt="Profile views" /></a>
 <a href="https://github.com/Elyntr47?tab=followers"><img src="https://img.shields.io/github/followers/Elyntr47?label=Followers&color=7aa2f7&style=flat" alt="Followers" /></a>
-<img src="https://img.shields.io/github/stars/Elyntr47?label=Total%20Stars&color=7aa2f7&style=flat" alt="Stars" />
-<img src="https://img.shields.io/badge/Stack-Linux%20%C2%B7%20Embedded%20%C2%B7%20Web-7aa2f7?style=flat-square" alt="Stack" />
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/omacom/omarchy-site/master/brand/omarchy-logo.png" width="90" alt="Omarchy" />
-&nbsp;&nbsp;running Omarchy on Arch&nbsp;&nbsp;
+<a href="https://github.com/Elyntr47?tab=repositories"><img src="https://img.shields.io/github/stars/Elyntr47?label=Stars&color=7aa2f7&style=flat" alt="Stars" /></a>
+<a href="https://github.com/Elyntr47"><img src="https://img.shields.io/badge/Linux%20%2F%20Embedded%20%2F%20Web-7aa2f7?style=flat" alt="Stack" /></a>
 
 </div>
 
@@ -27,20 +22,20 @@ optimization, and bridging hardware with software.
 
 My interests live at the intersection of software and hardware:
 
-- 🐧 **Linux & custom distributions** — desktops, old hardware, and opinionated setups
+- 🐧 **Linux & custom distributions** — desktops, old hardware, opinionated setups
 - ⚙️ **System administration** — low-level configuration and troubleshooting
 - 🔒 **Security & DevSecOps** — Linux hardening, exposure management
 - 🌐 **Web development** — lean frontends, small servers, self-hosting
-- 🔌 **Embedded systems** — ESP32, nRF, sensors, custom PCBs
+- 🔌 **Embedded systems** — ESP32, sensors, hand-wired prototypes
 - 📡 **Networking & mesh** — scanning, radio experiments, mesh concepts
 - 🧠 **Local / lightweight AI** — small models on modest hardware
-- ⚡ **Performance optimization** — finding the bottleneck, then removing it
-- ♻️ **Breathing life into old hardware** — squeeze a dead machine back into service
+- ⚡ **Performance optimization** — find the bottleneck, then remove it
+- ♻️ **Breathing life into old hardware** — put a dead machine back to work
 
 <details>
 <summary>🇹🇷 Türkçe</summary>
 
-Y sistemler kurar, kırar ve yeniden inşa ederim. Odak noktam düşük seviye yapılandırma,
+Sistemler kurar, kırar ve yeniden inşa ederim. Odak noktam düşük seviye yapılandırma,
 performans optimizasyonu ve donanımı yazılımla buluşturmak.
 
 İlgi alanlarım yazılım ile donanımın kesişim noktasında:
@@ -49,7 +44,7 @@ performans optimizasyonu ve donanımı yazılımla buluşturmak.
 - ⚙️ **Sistem yönetimi** — düşük seviye yapılandırma ve hata ayıklama
 - 🔒 **Güvenlik & DevSecOps** — Linux sertleştirme, saldırı yüzeyi yönetimi
 - 🌐 **Web geliştirme** — hafif arayüzler, küçük sunucular, kendi sunucunu kur
-- 🔌 **Gömülü sistemler** — ESP32, nRF, sensörler, özel PCB tasarımı
+- 🔌 **Gömülü sistemler** — ESP32, sensörler, kendi tellediğim prototipler
 - 📡 **Ağ & mesh** — tarama, radyo deneyleri, mesh konseptleri
 - 🧠 **Yerel / hafif yapay zekâ** — küçük modeller, sınırlı donanım
 - ⚡ **Performans optimizasyonu** — darboğazı bul, sonra kaldır
@@ -59,27 +54,17 @@ performans optimizasyonu ve donanımı yazılımla buluşturmak.
 
 ---
 
-## 🔌 Hardware & Embedded
-
-<img src="https://skillicons.dev/icons?i=esp32,arduino,raspberrypi,c,cpp,python" alt="Embedded" />
-
-Most of my hardware work starts on an **ESP32** with an SSD1306 OLED and grows from there —
-real-time clock sync, live weather, timers, WiFi scanning, and live PC telemetry pushed
-from the host over serial.
-
----
-
 ## 🛠️ Projects
 
 <a href="https://github.com/Elyntr47/esp32-saat-paneli"><img src="https://img.shields.io/github/stars/Elyntr47/esp32-saat-paneli?style=social" alt="stars"/></a>
-<a href="https://github.com/Elyntr47/pc_monitor"><img src="https://img.shields.io/github/stars/Elyntr47/pc_monitor?style=social" alt="stars"/></a>
 <a href="https://github.com/Elyntr47/esp32-wifi-scan"><img src="https://img.shields.io/github/stars/Elyntr47/esp32-wifi-scan?style=social" alt="stars"/></a>
+<a href="https://github.com/Elyntr47/pc_monitor"><img src="https://img.shields.io/github/stars/Elyntr47/pc_monitor?style=social" alt="stars"/></a>
 
 | Project | What it does |
 |---|---|
 | **[ESP32 Saat Paneli](https://github.com/Elyntr47/esp32-saat-paneli)** · ⭐2 | Multifunction OLED clock panel: NTP time, live weather via Open-Meteo, Pomodoro, stopwatch and WiFi scanning — all from one BOOT button. |
-| **[ESP32 PC Monitor](https://github.com/Elyntr47/pc_monitor)** · ⭐1 | Bars CPU, RAM and GPU load plus temperatures on a 128×64 SSD1306, fed by a Python sender over serial. |
 | **[ESP32 WiFi Scan](https://github.com/Elyntr47/esp32-wifi-scan)** · ⭐3 | Handheld WiFi scanner on an OLED — lists nearby networks with SSID/RSSI, plus a built-in web setup portal. |
+| **[ESP32 PC Monitor](https://github.com/Elyntr47/pc_monitor)** · ⭐1 | Bars CPU, RAM and GPU load plus temperatures on a 128×64 SSD1306, fed by a Python sender over serial. |
 | **[tsozluk](https://github.com/Elyntr47/tsozluk)** | Dictionary web app with an Android client and one-command Netlify deploy scripts. |
 | **[My-fastfetch](https://github.com/Elyntr47/My-fastfetch)** · ⭐1 | A CachyOS/KDE Fastfetch config — multi-coloured ASCII logo, hardware and network metrics. |
 | **[web](https://github.com/Elyntr47/web)** · ⭐1 | Personal web presence: hand-written HTML/CSS, plus a live system-info page driven by Fastfetch JSON. |
@@ -90,8 +75,8 @@ from the host over serial.
 | Proje | Ne yapar |
 |---|---|
 | **[ESP32 Saat Paneli](https://github.com/Elyntr47/esp32-saat-paneli)** | Çok işlevli OLED saat paneli: NTP ile gerçek saat, Open-Meteo ile canlı hava durumu, pomodoro, kronometre ve WiFi taraması — hepsi tek BOOT tuşundan. |
-| **[ESP32 PC Monitor](https://github.com/Elyntr47/pc_monitor)** | CPU, RAM ve GPU kullanımı ile sıcaklıkları 128×64 SSD1306 ekranda çubuk grafiklerle gösterir; veriyi Python seri bağlantısından alır. |
 | **[ESP32 WiFi Scan](https://github.com/Elyntr47/esp32-wifi-scan)** | OLED üzerinde el tipi WiFi tarayıcı — çevredeki ağları SSID/RSSI ile listeler, dahili web kurulum portalı içerir. |
+| **[ESP32 PC Monitor](https://github.com/Elyntr47/pc_monitor)** | CPU, RAM ve GPU kullanımı ile sıcaklıkları 128×64 SSD1306 ekranda çubuk grafiklerle gösterir; veriyi Python seri bağlantısından alır. |
 | **[tsozluk](https://github.com/Elyntr47/tsozluk)** | Android istemcisi olan bir sözlük web uygulaması ve tek komutla Netlify dağıtım betikleri. |
 | **[My-fastfetch](https://github.com/Elyntr47/My-fastfetch)** | CachyOS/KDE için Fastfetch ayarı — çok renkli ASCII logo, donanım ve ağ metrikleri. |
 | **[web](https://github.com/Elyntr47/web)** | Kişisel web varlığı: el yazımı HTML/CSS ve Fastfetch JSON ile beslenen canlı sistem bilgisi sayfası. |
@@ -102,48 +87,53 @@ from the host over serial.
 
 ## 🔧 Tech Stack
 
-**Systems & OS**
-<img src="https://skillicons.dev/icons?i=linux,debian,arch,ubuntu,git,github,vscode,vim,docker" alt="Systems" />
+<p align="center"><strong>🖥️ System</strong></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=linux,debian,arch" alt="Linux, Debian, Arch" />
+  <img src="https://raw.githubusercontent.com/omacom/omarchy-site/master/brand/oma-logo.png" width="48" height="48" alt="Omarchy" />
+</p>
 
-<img src="https://raw.githubusercontent.com/omacom/omarchy-site/master/brand/omarchy-logo.png" height="45" alt="Omarchy" /> <img src="https://skillicons.dev/icons?i=bash,powershell,nginx,obsidian" alt="Shell and tools" />
+<p align="center"><strong>⌨️ Shell &amp; Editor</strong></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=bash,git,vscode,obsidian" alt="Bash, Git, VS Code, Obsidian" />
+</p>
 
-**Web**
-<img src="https://skillicons.dev/icons?i=html,css,js,nodejs,typescript" alt="Web" />
+<p align="center"><strong>🌐 Web</strong></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,github" alt="HTML, CSS, JavaScript, GitHub" />
+</p>
 
-**Embedded**
-<img src="https://skillicons.dev/icons?i=esp32,arduino,c,cpp" alt="Embedded" />
-
-**Languages**
-<img src="https://skillicons.dev/icons?i=python,c,cpp,js,ts" alt="Languages" />
+<p align="center"><strong>🔌 Embedded</strong></p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/espressif/esp-idf/master/docs/_static/chip-esp32.svg" height="48" alt="ESP32" />
+  <img src="https://skillicons.dev/icons?i=arduino,cpp,python" alt="Arduino, C++, Python" />
+</p>
 
 | Area | Tools |
-|---|---|
+|:--|:--|
 | OS | Linux · Debian · Arch · Omarchy |
-| Version control | Git · GitHub |
-| Editors | VS Code · Vim · Neovim · terminal |
-| Shell & services | Bash · Bash/systemd · Nginx |
-| Web | HTML · CSS · JavaScript · Node.js |
-| Embedded | ESP32 · Arduino · C · C++ |
-| Security | Linux hardening · DevSecOps |
+| Shell & Editor | Bash · Git · VS Code · Obsidian |
+| Web | HTML · CSS · JavaScript · GitHub |
+| Embedded | ESP32 · Arduino · C++ · Python |
 
 ---
 
 ## 📊 GitHub Stats
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Elyntr47&theme=tokyonight&hide_border" width="100%" alt="Contribution streak" />
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Elyntr47&theme=tokyonight&hide_border" width="100%" alt="Contribution streak" />
+</p>
 
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Elyntr47&theme=tokyonight" width="100%" alt="Profile details" />
-
-<br/>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Elyntr47&theme=tokyonight" width="100%" alt="Profile details" />
+</p>
 
 <!--
   Top languages + contribution graph are intentionally left out.
   Every public instance of github-readme-stats / github-readme-activity-graph
-  is currently down (the mirrors have no GitHub token configured, the main
-  host returns 503). To bring them back, fork the projects, add a PAT as
-  PAT_1 in Vercel, deploy, then uncomment and point at your own URL:
+  is currently down (mirrors have no GitHub token, the main host returns 503).
+  To restore them: fork the project, add a PAT as PAT_1 in Vercel, deploy, then
+  uncomment and point at your own URL:
 
   <img src="https://YOUR-DEPLOYMENT/api/top-langs?username=Elyntr47&layout=compact&theme=tokyonight" />
 -->
